@@ -1,4 +1,8 @@
 export function helloWorld(hello: string, world: string) {
   const a = 'hello';
-  return `${hello} ${world}`;
+  const result = `${hello} ${world}`;
+  console.log(result);
+  return result;
 }
+
+helloWorld('hello', 'world');

@@ -6,6 +6,7 @@
   "scripts": {
     "start": "npm run build && node dist/index.js",
     "build": "npx swc src -d dist",
+    "typecheck": "tsc --noemit",
     "test": "npx jest"
   },
   "type": "module",
