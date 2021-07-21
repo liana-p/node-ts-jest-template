@@ -11,7 +11,7 @@
   },
   "type": "module",
   "author": "Liana Pigeot",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@swc/cli": "^0.1.46",
     "@swc/core": "^1.2.66",
