@@ -1,4 +1,4 @@
-# My Node Template
+# My Node Typescript template with Jest and Prettier
 
 Simple empty node project template made for myself with typescript and jest unit tests.
 
