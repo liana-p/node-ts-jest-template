@@ -1,0 +1,25 @@
+{
+  "name": "my-node-bootstrap",
+  "version": "1.0.0",
+  "description": "My node bootstrap setup with typescript and unit tests",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && node dist/index.js",
+    "build": "npx swc src -d dist",
+    "test": "npx jest"
+  },
+  "type": "module",
+  "author": "Liana Pigeot",
+  "license": "ISC",
+  "devDependencies": {
+    "@swc/cli": "^0.1.46",
+    "@swc/core": "^1.2.66",
+    "@swc/jest": "^0.1.4",
+    "@tsconfig/recommended": "^1.0.1",
+    "@types/jest": "^26.0.24",
+    "jest": "^27.0.6",
+    "prettier": "2.3.2",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.5"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "search.exclude": {
+    "**/dist": true
+  },
+  "files.exclude": {
+    "**/dist": true
+  }
+}
